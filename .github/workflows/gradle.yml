@@ -35,7 +35,7 @@ jobs:
         arguments: build
         
     - name: Make zip file
-      run: zip -r ./practice-githubAction-deploy.zip
+      run: zip -r ./practice-deploy.zip .
       shell: bash
       
     - name: Configure AWS credentials
