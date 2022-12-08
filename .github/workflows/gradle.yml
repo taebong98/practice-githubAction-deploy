@@ -53,4 +53,4 @@ jobs:
         aws deploy create-deployment --application-name be-28-taebong98
         --deployment-config-name CodeDeployDefault.AllAtOnce
         --deployment-group-name be-28-taebong98-group
-        --s3-location bucket=$be-28-taebong98, bundleType=zip,key=practice-deploy.zip
+        --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
